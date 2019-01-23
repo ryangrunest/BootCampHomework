@@ -8,6 +8,10 @@ input:focus {
 
 /*Header CSS*/
 .header {
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 1;
 	background: white;
 	display: flex;
 	width: 70%;
@@ -15,6 +19,7 @@ input:focus {
 	height: 75px;
 	margin-right: 0%;
 	border-bottom: 1px solid gray;
+	margin-bottom: 200px;
 }
 h1 {
 	background-color: #59d6c1;
@@ -60,17 +65,21 @@ h1 {
 	margin: 2% 15%;
 	background-color: white;
 	margin-bottom: 200px;
+	margin-top: 100px;
 	padding-bottom: 5%;
+	text-align: center;
 }
 h2 {
 	color: #59d6c1;
 	padding: 3% 5%;
 	margin: 0%;
 	padding-bottom: 1%;
+	text-align: left;
 }
 .content hr {
 	border-top: 1px solid gray;
 	margin: 0% 5%;
+
 }
 .image {
 	position: relative;
